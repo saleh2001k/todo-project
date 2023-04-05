@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"><img src="logo.png" alt="Logo"></a>
+            <a href="#" class="logo"><img src="./assets/logo.png" width="50" alt="Logo"></a>
             <div>
                 <a href="./index.html">Home</a>
-                <a href="./about.html">Contact</a>
                 <a href="./about.html">About</a>
             </div>
         </nav>
@@ -19,42 +19,49 @@
     <main>
         <section>
           <article>
-            <h2>About us </h2>
-             <img src="imageAbout.png" alt="" width="250">
-            
-             <p>Welcome to our 2-DO List website! We understand that keeping track of tasks and staying organized can be a challenge, which is why we created this tool to help you stay on top of your daily, weekly, and monthly tasks.
-                Our team of developers and designers worked hard to create a user-friendly interface that allows you to easily add, edit, and delete tasks. You can also set reminders and due dates to ensure that you never miss an important deadline.
-                Our mission is to simplify your life and help you achieve your goals by providing a reliable and efficient tool that can be accessed from anywhere, at any time. We are committed to continuously improving our website and adding new features to meet the evolving needs of our users.
-                Thank you for choosing our To-Do List website to help you stay organized and productive. If you have any questions or feedback, please don't hesitate to contact us.</p>
+            <h1 id="My-name">Saleh Almashni</h1>
+
+            <img class="avatar" src="./assets/avatar.png" width="200" alt="">
+
+            <div class="about-me">
+                <p>I am a highly skilled software engineer with expertise in designing, developing, and maintaining complex software systems. With a solid foundation in programming and a deep understanding of software development methodologies, I am able to translate complex technical requirements into efficient and effective software solutions. I have experience in developing software for a variety of platforms, including desktop, mobile, and web applications, and I am well-versed in multiple programming languages such as Java, C++, and Python</p>
+            </div>
+
+
           </article>
         </section>
-        
-        <section>
+
+       
+
+        <section class="contact">
+
+             <h2>Contact Me</h2>
+
            
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                
-                <button type="submit">Submit</button>
-            </form>
+                        
+                <label for="Name">Full Name</label>
+
+                <input type="text" name="Name" id="Name">
+                <br>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email">
+                <br>
+
+                <label for="Phone">Phone</label>
+                <input type="text" name="Phone" id="Phone">
+                <br>
+                <label for="Message">Message</label>
+                <input type="text" name="Message" id="Message">
+                <br>
+                <button>Send</button>
+
         </section>
     </main>
     
     <footer>
         <p>&copy; 2023 2-Do. All rights reserved. designed by saleh</p>
-        <ul>
-            <li><a href="#"><img src="./instagramIcon.png" alt=""></a></li>
-            <li><a href="#"><img src="./youtubeIcon.png" alt=""></</a></li>
-            <li><a href="#"><img src="./twitterIcon.png" alt=""></</a></li>
-            <li><a href="#"><img src="./facebook_logo_icon_147291.png" alt=""></</a></li>
 
-        </ul>
     </footer>
 </body>
 </html>
