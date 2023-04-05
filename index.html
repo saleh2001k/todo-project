@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>2-DO Home </title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"><img src="logo.png" alt="Logo"></a>
-            <div>
+            <a href="#" class="logo"><img src="./assets/logo.png" alt="Logo" width="50"></a>
+            <div class="nav-list" >
                 <a href="#">Home</a>
-                <a href="./about.html">Contact</a>
                 <a href="./about.html">About</a>
             </div>
         </nav>
@@ -18,47 +18,36 @@
     
     <main>
 
-        <form>
-            <label for="add task">Add task:</label>
-            <input type="text" id="Task" name="Task">
-            
-            <button type="submit">Submit</button>
-        </form>
-
+      <h1>To-Do List</h1>
 
         <table>
-            <thead>
-                <tr>
-                    <th>Task</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Task 1</td>
-                    <td>Not Started</td>
-                </tr>
-                <tr>
-                    <td>Task 2</td>
-                    <td>In Progress</td>
-                </tr>
-                <tr>
-                    <td>Task 3</td>
-                    <td>Completed</td>
-                </tr>
-            </tbody>
-        </table>
+            <tr>
+              <th>list</th>
+              <th>status</th>
+            </tr>
+            <tr>
+              <td>learn JS</td>
+              <td><div class="green-box"></div></td>
+            </tr>
+            <tr>
+              <td>Create HTML page</td>
+              <td><div class="red-box"></div></td>
+            </tr>
+            <tr>
+                <td>walk the dog</td>
+                <td><div class="red-box"></div></td>
+              </tr>
+              <tr>
+                <td>watch the match</td>
+                <td><div class="red-box"></div></td>
+              </tr>
+          </table>
+
+
     </main>
     
     <footer>
         <p>&copy; 2023 2-Do. All rights reserved. designed by saleh</p>
-        <ul>
-            <li><a href="#"><img src="./instagramIcon.png" alt=""></a></li>
-            <li><a href="#"><img src="./youtubeIcon.png" alt=""></</a></li>
-            <li><a href="#"><img src="./twitterIcon.png" alt=""></</a></li>
-            <li><a href="#"><img src="./facebook_logo_icon_147291.png" alt=""></</a></li>
-
-        </ul>
     </footer>
 </body>
 </html>
